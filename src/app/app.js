@@ -7,7 +7,7 @@ const jsonRoutes= require ('../routes/json.routes');
 
 const app = express();
 let port;
-app.set('port', config.port || 3000);
+app.set('port', process.env.PORT || 3000);
 
 app.use(morgan('dev'));
 app.use(express.urlencoded({extended:false}));
