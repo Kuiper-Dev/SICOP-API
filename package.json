@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/Kuiper-Dev/SICOP-API#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "jshint": "^2.13.1"
+    "jshint": "^2.13.1",
+    "morgan": "^1.10.0",
+    "mssql": "^7.2.1"
   },
   "engines": {
     "node": "6.11.1"
