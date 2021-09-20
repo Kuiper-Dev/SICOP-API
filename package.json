@@ -1,0 +1,28 @@
+{
+  "name": "sicop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuiper-Dev/SICOP-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kuiper-Dev/SICOP-API/issues"
+  },
+  "homepage": "https://github.com/Kuiper-Dev/SICOP-API#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jshint": "^2.13.1"
+  },
+  "engines": {
+    "node": "14.7.3"
+  }
+}

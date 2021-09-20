@@ -1,1 +1,0 @@
-(self.webpackChunkweb_api=self.webpackChunkweb_api||[]).push([[4397],{4397:(s,o,r)=>{"use strict";r.r(o),r.d(o,{ion_text:()=>l});var t=r(5133),c=r(4973),e=r(9046);const l=class{constructor(s){(0,t.r)(this,s)}render(){const s=(0,c.b)(this);return(0,t.h)(t.H,{class:(0,e.c)(this.color,{[s]:!0})},(0,t.h)("slot",null))}};l.style=":host(.ion-color){color:var(--ion-color-base)}"}}]);
