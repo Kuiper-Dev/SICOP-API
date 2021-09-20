@@ -1,6 +1,4 @@
 const express = require('express');
-const downloadRoutes = require('./routes/download.routes');
-const procedimientosRoutes = require('./routes/procedimientos.routes')
 const app= express();
 let port = process.env.PORT || 3000;
 
