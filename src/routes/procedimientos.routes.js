@@ -1,7 +1,7 @@
 const router = require('express').Router();
-const procedimientoCtrl = require('../controllers/procedimientos.controllers');
+const {getTipoProcedimiento} = require('../controllers/procedimientos.controllers');
 
 //Routes
-router.get('/procedimientos',procedimientoCtrl.getTipoProcedimiento);
+router.get('/procedimientos',getTipoProcedimiento);
 
 module.exports=router;
