@@ -1,7 +1,5 @@
 const router = require('express').Router();
-
+const downloadCtrl = require('../controllers/downloads.controllers')
 module.exports=router;
 
-router.get('/descargas/json/:id', (req, res)=>{
-    res.send('Descargando archivo');
-});
+router.get('/descargas/json/:id', downloadCtrl.getJSONData);
